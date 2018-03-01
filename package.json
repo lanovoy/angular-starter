@@ -83,6 +83,8 @@
     "webpack": "node --max_old_space_size=4096 node_modules/webpack/bin/webpack.js"
   },
   "dependencies": {
+    "@angular-devkit/core": "^0.4.3",
+    "@angular-devkit/schematics": "^0.4.3",
     "@angular/animations": "^5.2.6",
     "@angular/common": "^5.2.6",
     "@angular/compiler": "^5.2.6",
@@ -92,6 +94,10 @@
     "@angular/platform-browser-dynamic": "^5.2.6",
     "@angular/platform-server": "^5.2.6",
     "@angular/router": "^5.2.6",
+    "@ngrx/effects": "^5.1.0",
+    "@ngrx/entity": "^5.1.0",
+    "@ngrx/store": "^5.1.0",
+    "@ngrx/store-devtools": "^5.1.0",
     "core-js": "^2.4.1",
     "http-server": "^0.11.1",
     "ie-shim": "^0.1.0",
@@ -104,6 +110,7 @@
     "@angular/compiler-cli": "^5.2.6",
     "@angular/language-service": "^5.2.0",
     "@compodoc/compodoc": "^1.0.7",
+    "@ngrx/schematics": "^5.1.0",
     "@ngtools/webpack": "1.10.0",
     "@types/hammerjs": "^2.0.35",
     "@types/jasmine": "2.8.6",
